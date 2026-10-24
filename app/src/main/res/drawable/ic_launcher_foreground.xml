@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sombrita suave de la bomba -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M34,80 a22,6 0 1,0 44,0 a22,6 0 1,0 -44,0" />
+
+    <!-- Mecha en S curva de la bomba -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,36 C54,26 68,28 66,18"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Destello/Chispa rosa brillante arriba de la mecha -->
+    <path
+        android:fillColor="#FFFF33"
+        android:pathData="M66,13 l2,3 l3,-2 l-2,3 l3,2 l-4,1 l1,4 l-2,-3 l-2,3 l1,-4 l-4,-1 l3,-2 l-2,-3 z" />
+
+    <!-- Boquilla superior de la bomba -->
+    <path
+        android:fillColor="#5A2A41"
+        android:pathData="M48,34 h12 v4 h-12 z" />
+
+    <!-- Cuerpo principal esférico de la bomba (centrado en 54, 57, radio 21 => catorce dentro de la safe-zone de 66dp) -->
+    <path
+        android:fillColor="#3A1C2B"
+        android:pathData="M54,36 A22,22 0 1,0 54,80 A22,22 0 1,0 54,36 Z" />
+
+    <!-- Brillo curvo pastel en la bomba (highlight) -->
+    <path
+        android:fillColor="#88FFFFFF"
+        android:pathData="M40,43 A15,15 0 0,1 55,42 A17,17 0 0,0 40,48 Z" />
+
+    <!-- Pinchos/Puntas de la mina en 8 direcciones -->
+    <path android:fillColor="#5A2A41" android:pathData="M52,32 h4 v4 h-4 z" />
+    <path android:fillColor="#5A2A41" android:pathData="M52,80 h4 v4 h-4 z" />
+    <path android:fillColor="#5A2A41" android:pathData="M30,56 h4 v4 h-4 z" />
+    <path android:fillColor="#5A2A41" android:pathData="M78,56 h4 v4 h-4 z" />
+
+    <!-- Ojitos lindos / expresión simpática -->
+    <path android:fillColor="#FFFFFF" android:pathData="M46,55 a3,4 0 1,0 0.1,0 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M62,55 a3,4 0 1,0 0.1,0 Z" />
+    <path android:fillColor="#3A1C2B" android:pathData="M47,56 a1.5,2 0 1,0 0.1,0 Z" />
+    <path android:fillColor="#3A1C2B" android:pathData="M63,56 a1.5,2 0 1,0 0.1,0 Z" />
+
+    <!-- Sonrisita -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M51,64 Q54,67 57,64"
+        android:strokeWidth="1.8"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+</vector>
